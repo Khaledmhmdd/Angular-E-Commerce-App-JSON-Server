@@ -1,0 +1,15 @@
+.container input,
+.container select,
+.container button {
+  font-size: 1.5rem;
+  padding: 0.8rem 1rem; 
+}
+
+.container label {
+  font-size: 1.3rem;
+}
+
+.container button {
+  font-size: 1.5rem;
+  padding: 0.8rem 1.5rem;
+}

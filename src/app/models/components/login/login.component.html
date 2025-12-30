@@ -1,0 +1,31 @@
+<form (ngSubmit)="login()">
+  <div class="imgcontainer">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.i18S5hbENZf5sBwYOMm7UAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Avatar" class="avatar">
+    <h3>Log In</h3>
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" >
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" >
+
+    <button class="btn1"   type="submit" [disabled]="isUserLogged"    (click)="login()"  > Login</button>
+    <button class="btn2"   type="submit" [disabled]="!isUserLogged"   (click)="logout()" > Logout</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" routerLink="/home">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+
+
+
+
+

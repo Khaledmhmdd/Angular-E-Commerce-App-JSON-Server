@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": "100",
+      "name": "HP Pavilion 15",
+      "price": 50000,
+      "imgUrl": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_SL1500_.jpg",
+      "catId": 1,
+      "quantity": 5
+    },
+    {
+      "id": "200",
+      "name": "Dell Inspiron 14",
+      "price": 42000,
+      "imgUrl": "https://tse3.mm.bing.net/th/id/OIP.m98qycoZAkJrKUV8TGsaCwHaEg?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "catId": 1,
+      "quantity": 0
+    },
+    {
+      "id": "300",
+      "name": "iPhone 11",
+      "price": 22000,
+      "imgUrl": "https://tse1.mm.bing.net/th/id/OIP.hQ8wixHewEdN1canRNluogHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "catId": 2,
+      "quantity": 3
+    },
+    {
+      "id": "400",
+      "name": "Oppo Reno 8",
+      "price": 18000,
+      "imgUrl": "https://tse2.mm.bing.net/th/id/OIP.DvZN_dNj_uh7COQM0_ROjAHaF1?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "catId": 2,
+      "quantity": 7
+    },
+    {
+      "id": "500",
+      "name": "Samsung Galaxy Tab A8",
+      "price": 10500,
+      "imgUrl": "https://tse3.mm.bing.net/th/id/OIP.IeCKHunF-QhuNDYsV3sRwAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "catId": 3,
+      "quantity": 2
+    },
+    {
+      "id": "600",
+      "name": "iPad 9th Generation",
+      "price": 19000,
+      "imgUrl": "https://m.media-amazon.com/images/I/61NGnpjoRDL._AC_SL1500_.jpg",
+      "catId": 3,
+      "quantity": 4
+    },
+    {
+      "id": "700",
+      "name": "Asar",
+      "price": "♾️",
+      "imgUrl": "https://scontent.fcai19-7.fna.fbcdn.net/v/t1.15752-9/600618612_850051118003419_4198777061411807253_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=arhfQ2UAWLIQ7kNvwEH1yCV&_nc_oc=AdkyH01g13OBTUdt9B4LRy0tFUoRmKAft6GjkjxqNpBmx1_MZ1QaBXZaUj89Zbyz-Yw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&oh=03_Q7cD4AEf_ADWeM8_T021qBcOExuO-se1QX_e7mM9h9n3oRB6Xw&oe=6976B30E",
+      "catId": 0,
+      "quantity": 1
+    },
+    {
+      "id": "800",
+      "name": "khaled",
+      "price": 12,
+      "quantity": 4,
+      "imgUrl": "C:\\fakepath\\Screenshot 2024-10-25 223358.png",
+      "catId": "3"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Laptop"
+    },
+    {
+      "id": "2",
+      "name": "Phone"
+    },
+    {
+      "id": "3",
+      "name": "Tablet"
+    }
+  ]
+}

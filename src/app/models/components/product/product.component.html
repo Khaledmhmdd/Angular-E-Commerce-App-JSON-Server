@@ -1,0 +1,42 @@
+
+
+<div class="row row-cols-1 row-cols-md-4 g-4" >
+  @for (product of filteredProducts; track product.id) {
+    <div class="col">
+      <div class="card h-100" appHighlightCard="gray" externalColor="pink">
+        <img
+          [src]="product.imgUrl"
+          class="card-img-top"
+          [alt]="product.name"
+        >
+        <div class="card-body">
+            <p>Total Price</p>
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">Price : {{ product.price | currency:'EGP' }}</p>
+          <p class="card-text">catId : {{ product.catId }}</p>
+          <p class="card-text">quantity : {{ product.quantity }}</p>
+          <div>
+            <div>
+            <button class="btn btn-success" (click)="navigateToDetails(product.id)" > Details</button>
+            </div>
+            <div>
+              <input type="number" #countInp />
+              <button class="btn btn-success" (click)="buy(product,countInp.value,product.price)"> Buy</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  }@empty {
+    <h1>No products</h1>
+  }
+</div>
+<div>
+  <h1>{{myDate | date :'short'}}</h1>
+  <h1>{{num | square :3}}</h1>
+</div>
+
+ 

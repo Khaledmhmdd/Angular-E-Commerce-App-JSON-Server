@@ -1,0 +1,9 @@
+/* details.component.css */
+.small-card {
+  width: 30rem;       
+  margin: auto;       
+}
+.small-card img {
+  height: 150px;     
+  object-fit: contain;
+}
