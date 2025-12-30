@@ -1,59 +1,78 @@
-# Angular E-Commerce App + JSON Server
+# 🛒 Fullstack Angular E-Commerce App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+A full-featured E-Commerce web application built with **Angular**, following clean architecture and best practices.  
+The project simulates a real-world online store with product management, authentication, orders, and API integration using a mock backend.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
+- 🔐 Authentication & Route Guards
+- 🏠 Home & Product Listing
+- 📦 Product Details Page
+- ➕ Add / ❌ Delete Products
+- 🛍 Orders Management
+- 🔔 Notification Service
+- 🎨 Custom Directives & Pipes
+- 🧱 Modular & Scalable Structure
+- 🌐 API Integration using JSON Server
+- ❌ Not Found (404) Page
+
+---
+
+## 🧩 Technologies Used
+
+### Frontend
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap
+
+### Backend (Mock API)
+- JSON Server
+- RESTful APIs
+
+---
+
+## 📂 Project Structure
+
+
+ECOMMERCEAPP/
+│
+├── server/ # Mock backend (JSON Server)
+│ ├── db.json
+│ └── package.json
+│
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ ├── services/
+│ │ ├── guards/
+│ │ ├── directives/
+│ │ ├── pipes/
+│ │ └── models/
+│ └── environments/
+│
+└── angular.json
+
+---
+
+## ⚙️ Installation & Run
+
+### 1️⃣ Clone the repository
 ```bash
+git clone https://github.com/Khaledmhmdd/Angular-E-Commerce-App-JSON-Server.git
+cd fullstack-angular-ecommerce
+
+npm install
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+cd server
+npm install
+npm start
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+export const environment = {
+  apiUrl: 'http://localhost:3000'
+};
