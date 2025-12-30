@@ -27,7 +27,7 @@ The project simulates a real-world online store with product management, authent
 - TypeScript
 - HTML5
 - CSS3
-- Bootstrap
+- Bootstrap $ CSS
 
 ### Backend (Mock API)
 - JSON Server
